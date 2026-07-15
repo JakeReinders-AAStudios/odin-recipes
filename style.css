@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 8px;
+
+}
+
+.title {
+    font-weight: 200;
+    text-align: center;
+    justify-content: center;
+    margin: 8px auto;
+    padding-bottom: 12px;
+}
+
+.container {
+    background-color:bisque;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+    height: auto;
+    margin: 24px auto;
+    margin-bottom: 12px;
+}
+
+img{
+    width: 750px;
+    display: block;
+    margin: auto;
+}
+
+.list, .subtitle{
+    background-color:darksalmon;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+p {
+    background-color:mistyrose;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.subtitle {
+    background-color:lightcoral;
+}
+
+ol.boxed-list li{
+    list-style-type:decimal;
+    list-style-position: inside; /* Pulls the bullet inside the rectangle */
+}
+
+em {
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+}
